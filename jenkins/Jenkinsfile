@@ -3,11 +3,11 @@ pipeline {
   environment {
     VERSION = "1.0.${BUILD_NUMBER}"
     ARTIFACT_NAME = "student-portal-${VERSION}.jar"
-    EMAIL_RECIPIENTS = 'your-email@example.com'
+    EMAIL_RECIPIENTS = 'mehrotrasarthak16.com'
   }
   stages {
     stage('Checkout') {
-      steps { git "https://github.com/YOUR_USERNAME/simple-java-maven-app.git" }
+      steps { git "https://github.com/Sarthak-code786/simple-java-maven-app.git" }
     }
     stage('Build') {
       steps { sh 'mvn clean package -DskipTests' }
