@@ -3,7 +3,7 @@ pipeline {
   environment {
     VERSION = "1.0.${BUILD_NUMBER}"
     ARTIFACT_NAME = "student-portal-${VERSION}.jar"
-    EMAIL_RECIPIENTS = 'mehrotrasarthak16.com'
+    EMAIL_RECIPIENTS = 'mehrotrasarthak16@gmail.com'
   }
   stages {
     stage('Checkout') {
